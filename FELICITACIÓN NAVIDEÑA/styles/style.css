@@ -173,17 +173,37 @@ body
          color: rgba(50, 146, 42, 0);
        }
     
-    50% {
+    20% {
          right: 0%;
          color: rgba(50, 146, 42, 1.0);
         }
 
-    70% {
+    30% {
          right: 0%;
          color: #C50C0C
           
          }
     
+    40% {
+         right: 0%;
+         color: rgba(50, 146, 42, 1.0);
+        }
+
+    50% {
+         right: 0%;
+         color: #C50C0C
+        }
+
+    60% {
+          right: 0%;
+          color: rgba(50, 146, 42, 1.0);
+         }
+
+    70% {
+         right: 0%;
+         color: #C50C0C
+        }
+
     80% {
          right: 0%;
          color: rgba(50, 146, 42, 1.0);
@@ -214,6 +234,7 @@ body
     animation-name: textodinamico;
     animation-duration: 20s;
     animation-delay: 1s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes papanoelanim
